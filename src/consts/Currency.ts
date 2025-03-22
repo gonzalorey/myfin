@@ -5,65 +5,85 @@ export type Currency = {
 };
 
 const CURRENCIES: Record<string, Currency> = {
-  EUR: {
-    symbol: '€',
-    code: 'EUR',
-    name: 'Euro',
-  },
   USD: {
     symbol: '$',
     code: 'USD',
     name: 'United States Dollar',
   },
-  CHF: {
-    symbol: 'CHF',
-    code: 'CHF',
-    name: 'Schweizer Franken',
-  },
-  BRL: {
-    symbol: 'R$',
-    code: 'BRL',
-    name: 'Real Brasileiro',
-  },
-  GBP: {
-    symbol: '£',
-    code: 'GBP',
-    name: 'Pound Sterling',
-  },
-  CAD: {
-    symbol: 'C$',
-    code: 'CAD',
-    name: 'Dollar Canadien',
-  },
-  MXN: {
-    symbol: 'MX$',
-    code: 'MXN',
-    name: 'Peso Mexicano',
-  },
-  JPY: {
-    symbol: '¥',
-    code: 'JPY',
-    name: '日本円 (Nihon En)',
+  ARS: {
+    symbol: 'ARS$',
+    code: 'ARS',
+    name: 'Peso Argentino',
   },
   AUD: {
     symbol: 'A$',
     code: 'AUD',
     name: 'Australian Dollar',
   },
-  INR: {
-    symbol: '₹',
-    code: 'INR',
-    name: 'भारतीय रुपया (Bhāratīya Rupayā)',
+  BRL: {
+    symbol: 'R$',
+    code: 'BRL',
+    name: 'Real Brasileiro',
+  },
+  CAD: {
+    symbol: 'C$',
+    code: 'CAD',
+    name: 'Dollar Canadien',
+  },
+  CHF: {
+    symbol: 'CHF',
+    code: 'CHF',
+    name: 'Schweizer Franken',
+  },
+  CNY: {
+    symbol: '¥',
+    code: 'CNY',
+    name: '人民币 (Chinese Yuan)',
+  },
+  CZK: {
+    symbol: 'Kč',
+    code: 'CZK',
+    name: 'Česká Koruna',
   },
   DKK: {
     symbol: 'kr',
     code: 'DKK',
     name: 'Dansk Krone',
   },
-  SEK: {
+  EUR: {
+    symbol: '€',
+    code: 'EUR',
+    name: 'Euro',
+  },
+  GBP: {
+    symbol: '£',
+    code: 'GBP',
+    name: 'Pound Sterling',
+  },
+  HUF: {
+    symbol: 'Ft',
+    code: 'HUF',
+    name: 'Magyar Forint',
+  },
+  INR: {
+    symbol: '₹',
+    code: 'INR',
+    name: 'भारतीय रुपया (Bhāratīya Rupayā)',
+  },
+  ISK: {
     symbol: 'kr',
-    code: 'SEK',
-    name: 'Svensk Krona',
+    code: 'ISK',
+    name: 'Íslensk Króna',
+  },
+  JPY: {
+    symbol: '¥',
+    code: 'JPY',
+    name: '日本円 (Nihon En)',
+  },
+  MXN: {
+    symbol: 'MX$',
+    code: 'MXN',
+    name: 'Peso Mexicano',
   },
   NOK: {
     symbol: 'kr',
@@ -75,30 +95,15 @@ const CURRENCIES: Record<string, Currency> = {
     code: 'PLN',
     name: 'Polski Złoty',
   },
-  ISK: {
-    symbol: 'kr',
-    code: 'ISK',
-    name: 'Íslensk Króna',
-  },
-  CZK: {
-    symbol: 'Kč',
-    code: 'CZK',
-    name: 'Česká Koruna',
-  },
-  HUF: {
-    symbol: 'Ft',
-    code: 'HUF',
-    name: 'Magyar Forint',
-  },
   RON: {
     symbol: 'lei',
     code: 'RON',
     name: 'Leu Românesc',
   },
-  CNY: {
-    symbol: '¥',
-    code: 'CNY',
-    name: '人民币 (Chinese Yuan)',
+  SEK: {
+    symbol: 'kr',
+    code: 'SEK',
+    name: 'Svensk Krona',
   },
 };
 
