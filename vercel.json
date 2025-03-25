@@ -1,5 +1,8 @@
 {
   "rewrites": [
-    { "source": "/api/:path*", "destination": "${VITE_MYFIN_BASE_API_URL}/:path*" }
-  ]
+    { "source": "/api/:path*", "destination": "https://myfin-preview.vercel.app/" }
+  ],
+  "env": {
+    "VITE_MYFIN_BASE_API_URL": "@vite_myfin_base_api_url"
+  }
 }
