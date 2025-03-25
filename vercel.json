@@ -2,11 +2,7 @@
   "rewrites": [
     { 
       "source": "/api/:path*", 
-      "destination": "https://myfin-preview-verceldeployment.vercel.app/api/:path*",
-      "headers": [
-        { "key": "x-forwarded-host", "value": "myfin-preview-verceldeployment.vercel.app" },
-        { "key": "x-forwarded-proto", "value": "https" }
-      ]
+      "destination": "https://myfin-preview-verceldeployment.vercel.app/api/:path*"
     }
   ]
 }
