@@ -40,6 +40,11 @@ const CURRENCIES: Record<string, Currency> = {
     code: 'CNY',
     name: '人民币 (Chinese Yuan)',
   },
+  COP: {
+    symbol: 'COL$',
+    code: 'COP',
+    name: 'Peso Colombiano',
+  },
   CZK: {
     symbol: 'Kč',
     code: 'CZK',
